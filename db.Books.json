@@ -1,0 +1,356 @@
+db.Books.insertMany({
+        {
+    "category": "poetry_books",
+    "name": "Milk and Honey",
+            "author": "Rupi Kaur",
+            "price": "$12.99"
+        },
+        {
+    "category": "poetry_books",
+    "name": "The Sun and Her Flowers",
+            "author": "Rupi Kaur",
+            "price": "$14.99"
+        },
+        {
+    "category": "poetry_books",
+    "name": "Ariel",
+            "author": "Sylvia Plath",
+            "price": "$10.99"
+        },
+        {
+    "category": "poetry_books",
+    "name": "Leaves of Grass",
+            "author": "Walt Whitman",
+            "price": "$9.99"
+        },
+        {
+    "category": "poetry_books",
+    "name": "The Waste Land",
+            "author": "T.S. Eliot",
+            "price": "$11.99"
+        },
+        {
+    "category": "poetry_books",
+    "name": "The Collected Poems of W.B. Yeats",
+            "author": "W.B. Yeats",
+            "price": "$13.99"
+        },
+        {
+    "category": "poetry_books",
+    "name": "Selected Poems",
+            "author": "Emily Dickinson",
+            "price": "$8.99"
+        },
+        {
+    "category": "poetry_books",
+    "name": "The Essential Rumi",
+            "author": "Rumi",
+            "price": "$15.99"
+        },
+        {
+    "category": "poetry_books",
+    "name": "The Complete Poems",
+            "author": "Anne Sexton",
+            "price": "$12.99"
+        }
+    
+})
+
+ db.Books.insertMany(
+[
+    {
+      "category":"cooking_books",
+      "name": "The Joy of Cooking",
+      "author": "Irma S. Rombauer",
+      "price": "$24.99"
+    },
+    {
+      "category":"cooking_books",
+      "name": "Salt, Fat, Acid, Heat",
+      "author": "Samin Nosrat",
+      "price": "$29.99"
+    },
+    {
+      "category":"cooking_books",
+      "name": "The Food Lab: Better Home Cooking Through Science",
+      "author": "J. Kenji López-Alt",
+      "price": "$32.99"
+    },
+    {
+      "category":"cooking_books",
+      "name": "Essentials of Classic Italian Cooking",
+      "author": "Marcella Hazan",
+      "price": "$27.99"
+    },
+    {
+      "category":"cooking_books",
+      "name": "Mastering the Art of French Cooking",
+      "author": "Julia Child",
+      "price": "$35.99"
+    },
+    {
+      "category":"cooking_books",
+      "name": "Cooking for Jeffrey: A Barefoot Contessa Cookbook",
+      "author": "Ina Garten",
+      "price": "$26.99"
+    },
+    {
+      "category":"cooking_books",
+      "name": "Plenty: Vibrant Vegetable Recipes from London's Ottolenghi",
+      "author": "Yotam Ottolenghi",
+      "price": "$28.99"
+    },
+    {
+      "category":"cooking_books",
+      "name": "The Pioneer Woman Cooks: Dinnertime",
+      "author": "Ree Drummond",
+      "price": "$23.99"
+    },
+    {
+      "category":"cooking_books",
+      "name": "BraveTart: Iconic American Desserts",
+      "author": "Stella Parks",
+      "price": "$31.99"
+    }
+  ]
+)
+
+
+
+
+ db.Books.insertMany([
+    {
+      "name": "Batman: The Killing Joke",
+      "category":"comic_books",
+      "author": "Alan Moore",
+      "price": "$15.99"
+    },
+    {
+      "category":"comic_books",
+      "name": "Spider-Man: The Night Gwen Stacy Died",
+      "author": "Gerry Conway",
+      "price": "$12.99"
+    },
+    {
+      "category":"comic_books",
+      "name": "Maus",
+      "author": "Art Spiegelman",
+      "price": "$19.99"
+    },
+    {
+      "category":"comic_books",
+      "name": "Watchmen",
+      "author": "Alan Moore",
+      "price": "$17.99"
+    },
+    {
+      "category":"comic_books",
+      "name": "X-Men: Dark Phoenix Saga",
+      "author": "Chris Claremont",
+      "price": "$14.99"
+    },
+    {
+      "category":"comic_books",
+      "name": "The Sandman: Preludes & Nocturnes",
+      "author": "Neil Gaiman",
+      "price": "$20.99"
+    },
+    {
+      "category":"comic_books",
+      "name": "Persepolis",
+      "author": "Marjane Satrapi",
+      "price": "$16.99"
+    },
+    {
+      "category":"comic_books",
+      "name": "Wonder Woman: The Hiketeia",
+      "author": "Greg Rucka",
+      "price": "$13.99"
+    },
+    {
+      "category":"comic_books",
+      "name": "Black Panther: A Nation Under Our Feet",
+      "author": "Ta-Nehisi Coates",
+      "price": "$18.99"
+    }
+  ]
+ )
+
+
+ db.Books.insertMany( [
+    {
+      "name": "Harry Potter and the Sorcerer's Stone",
+      "category":"children_books",
+      "author": "J.K. Rowling",
+      "price": "$12.99"
+    },
+    {
+      "category":"children_books",
+      "name": "The Very Hungry Caterpillar",
+      "author": "Eric Carle",
+      "price": "$8.99"
+    },
+    {
+      "category":"children_books",
+      "name": "Where the Wild Things Are",
+      "author": "Maurice Sendak",
+      "price": "$10.99"
+    },
+    {
+      "category":"children_books",
+      "name": "Matilda",
+      "author": "Roald Dahl",
+      "price": "$11.99"
+    },
+    {
+      "category":"children_books",
+      "name": "Charlotte's Web",
+      "author": "E.B. White",
+      "price": "$9.99"
+    },
+    {
+      "category":"children_books",
+      "name": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+      "author": "C.S. Lewis",
+      "price": "$14.99"
+    },
+    {
+      "name": "Winnie-the-Pooh",
+      "category":"children_books",
+      "author": "A.A. Milne",
+      "price": "$7.99"
+    },
+    {
+      "name": "Goodnight Moon",
+      "category":"children_books",
+      "author": "Margaret Wise Brown",
+      "price": "$6.99"
+    },
+    {
+      "name": "Green Eggs and Ham",
+      "category":"children_books",
+      "author": "Dr. Seuss",
+      "price": "$8.99"
+    }
+  ]
+)
+
+
+ db.Books.insertMany( [
+    {
+      "category":"coffee_table_books",
+      "name": "Humans of New York",
+      "author": "Brandon Stanton",
+      "price": "$29.99"
+    },
+    {
+      "category":"coffee_table_books",
+      "name": "National Geographic: Around the World in 125 Years",
+      "author": "Reuel Golden",
+      "price": "$49.99"
+    },
+    {
+      "name": "The Big Book of Chic",
+      "category":"coffee_table_books",
+      "author": "Miles Redd",
+      "price": "$39.99"
+    },
+    {
+      "category":"coffee_table_books",
+      "name": "Annie Leibovitz: Portraits 2005-2016",
+      "author": "Annie Leibovitz",
+      "price": "$59.99"
+    },
+    {
+      "name": "Tom Ford",
+      "category":"coffee_table_books",
+      "author": "Tom Ford",
+      "price": "$44.99"
+    },
+    {
+      "name": "The Wes Anderson Collection",
+      "category":"coffee_table_books",
+      "author": "Matt Zoller Seitz",
+      "price": "$34.99"
+    },
+    {
+      "name": "Vogue: The Covers",
+      "category":"coffee_table_books",
+      "author": "Dodie Kazanjian",
+      "price": "$54.99"
+    },
+    {
+      "name": "Aerial Geology: A High-Altitude Tour of North America's Spectacular Volcanoes, Canyons, Glaciers, Lakes, Craters, and Peaks",
+      "category":"coffee_table_books",
+      "author": "Mary Caperton Morton",
+      "price": "$49.99"
+    },
+    {
+      "category":"coffee_table_books",
+      "name": "The Art Book: New Edition",
+      "author": "Phaidon Editors",
+      "price": "$29.99"
+    }
+  ]
+)
+
+
+ db.Books.insertMany([
+    {
+      "name": "To Kill a Mockingbird",
+      "category":"novels",
+      "author": "Harper Lee",
+      "price": "$15.99"
+    },
+    {
+      "name": "1984",
+      "category":"novels",
+      "author": "George Orwell",
+      "price": "$12.99"
+    },
+    {
+      "name": "Pride and Prejudice",
+      "category":"novels",
+      "author": "Jane Austen",
+      "price": "$10.99"
+    },
+    {
+      "name": "The Great Gatsby",
+      "category":"novels",
+      "author": "F. Scott Fitzgerald",
+      "price": "$14.99"
+    },
+    {
+      "category":"novels",
+      "name": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "price": "$17.99"
+    },
+    {
+      "name": "To the Lighthouse",
+      "category":"novels",
+      "author": "Virginia Woolf",
+      "price": "$11.99"
+    },
+    {
+      "name": "Brave New World",
+      "category":"novels",
+      "author": "Aldous Huxley",
+      "price": "$13.99"
+    },
+    {
+      "category":"novels",
+      "name": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "price": "$9.99"
+    },
+    {
+      "name": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "category":"novels",
+      "price": "$19.99"
+    }
+  ]
+ )
+
+
